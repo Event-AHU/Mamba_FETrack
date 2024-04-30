@@ -36,10 +36,24 @@
 
 
 ### Acknowledgment 
+[[OSTrack](https://github.com/botaoye/OSTrack)] 
+[[Mamba](https://github.com/state-spaces/mamba)] 
+[[FELT](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
+[[CEUTrack](https://github.com/Event-AHU/COESOT)] 
+[[FE108](https://zhangjiqing.com/dataset/contact)] 
 
-
-
-### Citation 
+### :newspaper: Citation 
+If you think this survey is helpful, please feel free to leave a star ⭐️ and cite our paper:
+```bibtex
+@misc{huang2024mambafetrack,
+      title={Mamba-FETrack: Frame-Event Tracking via State Space Model}, 
+      author={Ju Huang and Shiao Wang and Shuai Wang and Zhe Wu and Xiao Wang and Bo Jiang},
+      year={2024},
+      eprint={2404.18174},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 
