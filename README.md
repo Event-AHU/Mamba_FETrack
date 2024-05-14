@@ -36,7 +36,7 @@ pip install -e mamba-1p1p1
 ```
 
     
- * **Install the package for tracking**
+* **Install the package for tracking**
 ```
 bash install.sh
 ```
@@ -53,7 +53,7 @@ lib/test/evaluation/local.py  # paths about testing
 ```
 
 ### Dataset Download 
-
+* **Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR FE108, and put it in `./data`.**
 
 
 ### Training and Testing 
