@@ -13,8 +13,9 @@ RGB-Event based tracking is an emerging research topic, focusing on how to effec
 
 ### FETrack Framework 
 <p align="center">
-<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/frameworkV2.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/Mamba_track_framework.jp" alt="framework" width="700"/>
 </p>
+
 
 
 
