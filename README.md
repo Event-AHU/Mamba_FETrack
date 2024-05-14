@@ -38,7 +38,7 @@ pip install -e mamba-1p1p1
     
  * **Install the package for tracking**
 ```
-
+bash install.sh
 ```
 
 
