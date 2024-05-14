@@ -28,12 +28,12 @@ conda activate mamba_fetrack
 
 * **Install package using**
 
-First, install the package for Vim
+  First, install the package for Vim
 ```
 
 ```
 
-Then, install the package for tracking
+  Then, install the package for tracking
 ```
 
 ```
