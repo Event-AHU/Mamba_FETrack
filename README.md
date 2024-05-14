@@ -26,15 +26,14 @@ conda create -n mamba_fetrack python=3.10.13
 conda activate mamba_fetrack
 ```
 
-* **Install package using**
 
- * First, install the package for Vim
+ * **Install the package for Vim**
 ```
 
 ```
 
     
- * Then, install the package for tracking
+ * **Install the package for tracking**
 ```
 
 ```
