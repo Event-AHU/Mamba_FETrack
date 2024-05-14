@@ -29,7 +29,10 @@ conda activate mamba_fetrack
 
  * **Install the package for Vim**
 ```
-
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -r vim_requirements.txt
+pip install -e causal_conv1d>=1.1.0
+pip install -e mamba-1p1p1
 ```
 
     
