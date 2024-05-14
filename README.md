@@ -27,6 +27,7 @@ conda activate mamba_fetrack
 ```
 
 * **Install package using**
+
 First, install the package for Vim
 ```
 
