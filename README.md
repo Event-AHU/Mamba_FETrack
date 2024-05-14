@@ -56,6 +56,7 @@ lib/test/evaluation/local.py  # paths about testing
 * **Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.**
 
 ### Pre-trained Download 
+Download [pre-trained](https://pan.baidu.com/s/1jxcpUG24795H48e-2bJWgA?pwd=AHUT) and put it under `$/pretrained_models`
 
 ### Training and Testing 
 
