@@ -20,12 +20,13 @@ RGB-Event based tracking is an emerging research topic, focusing on how to effec
 
 
 ### Environment Settings 
+* **Install environment using conda**
 ```
 conda create -n mamba_fetrack python=3.10.13
 conda activate mamba_fetrack
 ```
 
-
+* **Install package using**
 First, install the package for Vim
 ```
 
