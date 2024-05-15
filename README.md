@@ -93,7 +93,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 </p>
 
 * **Experimental results (SR/PR) on FELT dataset**
-* <p align="center">
+<p align="center">
 <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FELT.png" alt="framework" width="700"/>
 </p>
 
