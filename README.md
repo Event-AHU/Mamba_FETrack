@@ -84,7 +84,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 6. run `Evaluate_FELT_benchmark_attributes.m` for attributes analysis and figure saved in `$/res_fig/`. 
  * **Evaluation methods on the FE108 dataset**
 1. add your [tracking results (Passcode：AHUT)](https://pan.baidu.com/s/1xZypplOReASeK38GQAzUKg?pwd=AHUT) in `$/output/test/tracking_results/mamba_fetrack/`
-2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including SR, PR, NPR.
+2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including AUC, PR, NPR.
 
 ### Experimental Results 
 
