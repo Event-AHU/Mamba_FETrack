@@ -78,13 +78,13 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
  * **Evaluation methods on the FELT dataset**
 1. Download the FELT_eval_toolkit from [FELT_eval_toolki (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab (over Matlab R2020).
 2. add your [tracking results (Passcode：AHUT)](https://pan.baidu.com/s/13nCvBezuaBQP5hZzftEEIw?pwd=AHUT) in `$/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
-3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including SR, PR, NPR.
+3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including AUC, PR, NPR.
 4. run `plot_BOC.m` for BOC score evaluation and figure plot.
 5. run `plot_radar.m` for attributes radar figrue plot.
 6. run `Evaluate_FELT_benchmark_attributes.m` for attributes analysis and figure saved in `$/res_fig/`. 
  * **Evaluation methods on the FE108 dataset**
 1. add your [tracking results (Passcode：AHUT)](https://pan.baidu.com/s/1xZypplOReASeK38GQAzUKg?pwd=AHUT) in `$/output/test/tracking_results/mamba_fetrack/`
-
+2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including SR, PR, NPR.
 
 ### Experimental Results 
 
