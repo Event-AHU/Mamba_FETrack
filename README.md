@@ -7,9 +7,15 @@
 
 ### News 
 
+* [2024.05.15] Source code and weights are all released.
+* [2024.04.28] The arXiv paper is released [[arXiv](https://arxiv.org/abs/2404.18174)] 
 
-# :dart: Abstract 
+
+###  :dart: Abstract 
 RGB-Event based tracking is an emerging research topic, focusing on how to effectively integrate heterogeneous multi-modal data (synchronized exposure video frames and asynchronous pulse Event stream). Existing works typically employ Transformer based networks to handle these modalities and achieve decent accuracy through input-level or feature-level fusion on multiple datasets. However, these trackers require significant memory consumption and computational complexity due to the use of self-attention mechanism. This paper proposes a novel RGB-Event tracking framework, Mamba-FETrack, based on the State Space Model (SSM) to achieve high-performance tracking while effectively reducing computational costs and realizing more efficient tracking. Specifically, we adopt two modality-specific Mamba backbone networks to extract the features of RGB frames and Event streams. Then, we also propose to boost the interactive learning between the RGB and Event features using the Mamba network. The fused features will be fed into the tracking head for target object localization. Extensive experiments on FELT and FE108 datasets fully validated the efficiency and effectiveness of our proposed tracker. Specifically, our Mamba-based tracker achieves 43.5/55.6 on the SR/PR metric, while the ViT-S based tracker (OSTrack) obtains 40.0/50.9. The GPU memory cost of ours and ViT-S based tracker is 13.98GB and 15.44GB, which decreased about $9.5\%$. The FLOPs and parameters of ours/ViT-S based OSTrack are 59GB/1076GB and 7MB/60MB, which decreased about $94.5\%$ and $88.3\%$, respectively. We hope this work can bring some new insights to the tracking field and greatly promote the application of the Mamba architecture in tracking. 
+
+
+
 
 ### FETrack Framework 
 <p align="center">
@@ -52,16 +58,22 @@ lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-### Dataset Download 
-Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.
+### Download Dataset  
+  Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.
 
-### Pre-trained Download 
-Download [pre-trained](https://pan.baidu.com/s/1-5q4hK2LWj16K6R2PHSdPw?pwd=AHUT) and put it under `$/pretrained_models`.
 
-### Trained model weights Download
-Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
 
-### Training and Testing 
+### Download Checkpoint  
+  Download [pre-trained](https://pan.baidu.com/s/1-5q4hK2LWj16K6R2PHSdPw?pwd=AHUT) and put it under `$/pretrained_models`.
+
+
+
+### Download Trained Weights for Model 
+  Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
+
+
+
+### Training and Testing Script 
 ```
 # train
 python tracking/train.py --script mamba_fetrack --config mamba_fetrack_felt --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
@@ -86,6 +98,8 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 1. add your [tracking results (Passcode：AHUT)](https://pan.baidu.com/s/1xZypplOReASeK38GQAzUKg?pwd=AHUT) in `$/output/test/tracking_results/mamba_fetrack/`
 2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including AUC, PR, NPR.
 
+
+
 ### Experimental Results 
 * **Experimental results (AUC/PR) on FE108 dataset**
 <p align="center">
@@ -97,6 +111,8 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FELT.png" alt="framework" width="700"/>
 </p>
 
+
+
 ### Acknowledgment 
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
 [[Mamba](https://github.com/state-spaces/mamba)] 
@@ -104,8 +120,10 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 [[CEUTrack](https://github.com/Event-AHU/COESOT)] 
 [[FE108](https://zhangjiqing.com/dataset/contact)] 
 
+
+
 ### :newspaper: Citation 
-If you think this survey is helpful, please feel free to leave a star ⭐️ and cite our paper:
+If you think this paper is helpful, please feel free to leave a star ⭐️ and cite our paper:
 ```bibtex
 @misc{huang2024mambafetrack,
       title={Mamba-FETrack: Frame-Event Tracking via State Space Model}, 
