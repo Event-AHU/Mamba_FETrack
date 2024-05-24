@@ -40,10 +40,9 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 conda install -c "nvidia/label/cuda-11.8.0" cuda-nvcc
 conda install packaging
 pip install -r vim_requirements.txt
-pip install -e causal_conv1d>=1.1.0
-pip install -e mamba-1p1p1
 ```
-
+* **Install the mamba-1.1.1 and casual-conv1d-1.1.3 for mamba**
+  
     
 * **Install the package for tracking**
 ```
@@ -72,7 +71,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 
 ### Download Trained Weights for Model 
-  Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
+Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
 
 
 
