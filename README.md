@@ -7,6 +7,8 @@
 
 ### News 
 
+
+* [2024.06.25] This work is accepted by **PRCV-2024** [[第七届中国模式识别与计算机视觉大会 (The 7th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2024)](http://2024.prcv.cn/)]. 
 * [2024.05.15] Source code and weights are all released.
 * [2024.04.28] The arXiv paper is released [[arXiv](https://arxiv.org/abs/2404.18174)] 
 
