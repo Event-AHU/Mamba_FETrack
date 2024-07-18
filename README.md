@@ -115,6 +115,12 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including AUC, PR, NPR.
 
 
+### Visualization 
+<p align="center">
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/activationMAPs.jpg" alt="framework" width="700"/>
+</p>
+
+
 
 ### Experimental Results 
 * **Experimental results (AUC/PR) on FE108 dataset**
