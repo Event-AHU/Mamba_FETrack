@@ -69,7 +69,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 
 ### Download Checkpoint  
-  Download [pre-trained](https://pan.baidu.com/s/1-5q4hK2LWj16K6R2PHSdPw?pwd=AHUT) and put it under `$/pretrained_models`.
+  Download [pre-trained](https://drive.google.com/drive/folders/1sTHPc0fCNrGZi-xS1OpuYU9KWT9aJNef?hl=zh-cn) and put it under `$/pretrained_models`.
 
 
 
