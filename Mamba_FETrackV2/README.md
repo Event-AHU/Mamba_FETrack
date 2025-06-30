@@ -14,7 +14,7 @@ Combining traditional RGB cameras with bio-inspired event cameras for robust obj
 
 ### Mamba-FETrack V2 Framework 
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/MambaFETrack_framework_V3.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/MambaFETrack_framework_V3.jpg" alt="framework" width="700"/>
 </p>
 
 ### Environment Settings 
