@@ -142,14 +142,6 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 ### :newspaper: Citation 
 If you think this paper is helpful, please feel free to leave a star ⭐️ and cite our paper:
 ```bibtex
-@misc{huang2024mambafetrack,
-      title={Mamba-FETrack: Frame-Event Tracking via State Space Model}, 
-      author={Ju Huang and Shiao Wang and Shuai Wang and Zhe Wu and Xiao Wang and Bo Jiang},
-      year={2024},
-      eprint={2404.18174},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
 ```
 
 
