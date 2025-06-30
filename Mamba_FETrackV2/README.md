@@ -106,7 +106,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 
  * **Evaluation methods on the FE108 dataset**
 1. add your [tracking results (Passcode：AHUE)](https://pan.baidu.com/s/1i9ye9QM-EeZRzRpJ7R8p1g?pwd=AHUE) in `$/output/test/tracking_results/mamba_fetrack/`
-2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including AUC, PR.
+2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including SR, PR.
 
 
 ### Visualization 
