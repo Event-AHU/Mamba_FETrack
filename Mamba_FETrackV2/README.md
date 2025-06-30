@@ -64,7 +64,7 @@ lib/test/evaluation/local.py  # paths about testing
 ```
 
 ### Download Dataset  
-  Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
+  Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
 
 
 
@@ -74,7 +74,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 
 ### Download Trained Weights for Model 
-Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
+Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://drive.google.com/drive/folders/1ihlhp4_gIHmXpIkrJ2wTfleja_wA-Pqa?hl=zh-cn) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test FELT V2 directly.
 
 
 
@@ -100,7 +100,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including AUC, PR, NPR.
 
  * **Evaluation methods on the COESOT dataset**
-1. Download the FELT_eval_toolkit from [COESOT_eval_toolkit (Passcode：AHUT)](), and open it with Matlab.
+1. Download the FELT_eval_toolkit from [COESOT_eval_toolkit ([Passcode：AHUT](https://github.com/Event-AHU/COESOT/tree/main/COESOT_eval_toolkit))], and open it with Matlab.
 2. add your [tracking results (Passcode：AHUT)]() in `$/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
 3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including AUC, PR, NPR.
 
