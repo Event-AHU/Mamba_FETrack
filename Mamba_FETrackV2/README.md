@@ -125,15 +125,18 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/fe108_result.png" alt="framework" width="700"/>
 </p>
 
-* **Experimental results (SR/PR) on COESOT dataset**
-<p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/coesot_result.png" alt="framework" width="300"/>
-</p>
-
-* **Experimental results (SR/PR) on FELT V2 dataset**
-<p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/feltv2_result.png" alt="framework" width="300"/>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <strong>Experimental results (SR/PR) on COESOT dataset</strong><br>
+      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/coesot_result.png" alt="COESOT" width="300"/>
+    </td>
+    <td align="center">
+      <strong>Experimental results (SR/PR) on FELT V2 dataset</strong><br>
+      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/feltv2_result.png" alt="FELT V2" width="300"/>
+    </td>
+  </tr>
+</table>
 
 ### Acknowledgment 
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
