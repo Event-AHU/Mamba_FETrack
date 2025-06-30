@@ -40,7 +40,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 ```
 
 # :dvd: Download Dataset  
-Download tracking datasets [FELT]() OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.
+Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT) OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.
 
 
 # :triangular_ruler: Evaluation Toolkit 
