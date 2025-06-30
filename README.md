@@ -13,11 +13,6 @@
 * [2024.04.28] The arXiv paper is released [[arXiv](https://arxiv.org/abs/2404.18174)] 
 
 
-### Comparison between FusionMamba and FEMamba
-<p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FusionMamba_v1v2.jpg" alt="framework" width="700"/>
-</p>
-
 ### Environment Settings 
 * **Install environment using conda**
 ```
