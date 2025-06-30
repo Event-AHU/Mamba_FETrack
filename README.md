@@ -29,6 +29,10 @@ RGB-Event based tracking is an emerging research topic, focusing on how to effec
 <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/MambaFETrack_framework_V3.jpg" alt="framework" width="700"/>
 </p>
 
+### Comparison between FusionMamba and FEMamba
+<p align="center">
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FusionMamba_v1v2.jpg" alt="framework" width="700"/>
+</p>
 
 ### Environment Settings 
 * **Install environment using conda**
