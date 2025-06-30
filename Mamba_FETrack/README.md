@@ -77,15 +77,6 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 
 
 
-### Acknowledgment 
-[[OSTrack](https://github.com/botaoye/OSTrack)] 
-[[Mamba](https://github.com/state-spaces/mamba)] 
-[[FELT](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
-[[CEUTrack](https://github.com/Event-AHU/COESOT)] 
-[[FE108](https://zhangjiqing.com/dataset/contact)] 
-
-
-
 ### :newspaper: Citation 
 If you think this paper is helpful, please feel free to leave a star ⭐️ and cite our paper:
 ```bibtex
