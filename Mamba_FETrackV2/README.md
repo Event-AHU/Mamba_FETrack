@@ -36,6 +36,8 @@ python tracking/test.py mamba_fetrack mamba_fetrack_felt --dataset felt --thread
 python tracking/test.py mamba_fetrack mamba_fetrack_coesot --dataset coesot --threads 1 --num_gpus 1
 python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --threads 1 --num_gpus 1
 ```
+# :dvd: Download Dataset  
+Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
 
 
 # :triangular_ruler: Evaluation Toolkit 
