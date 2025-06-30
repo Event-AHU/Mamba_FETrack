@@ -114,7 +114,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 * The code of visualization can be found at: **Mamba_FETrack/lib/test/tracker/show_CAM.py** 
 
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/activationMAPs.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/response_map.jpg" alt="framework" width="700"/>
 </p>
 
 
