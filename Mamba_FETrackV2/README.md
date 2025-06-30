@@ -129,11 +129,11 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
   <tr>
     <td align="center">
       <strong>Experimental results (SR/PR) on COESOT dataset</strong><br>
-      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/coesot_result.png" alt="COESOT" width="300"/>
+      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/coesot_result.png" alt="COESOT" width="500"/>
     </td>
     <td align="center">
       <strong>Experimental results (SR/PR) on FELT V2 dataset</strong><br>
-      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/feltv2_result.png" alt="FELT V2" width="300"/>
+      <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/feltv2_result.png" alt="FELT V2" width="500"/>
     </td>
   </tr>
 </table>
