@@ -77,7 +77,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 </p>
 
 
-### :newspaper: Citation 
+# :newspaper: Citation 
 If you think this paper is helpful, please feel free to leave a star ⭐️ and cite our paper:
 ```bibtex
 ```
