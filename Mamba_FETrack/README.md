@@ -1,4 +1,4 @@
-# Mamba_FETrack
+# 🔎 Mamba_FETrack
 
 * **Mamba-FETrack: Frame-Event Tracking via State Space Model**, Ju Huang, Shiao Wang, Shuai Wang, Zhe Wu, Xiao Wang, Bo Jiang
   [[Paper](https://arxiv.org/abs/2404.18174)]
