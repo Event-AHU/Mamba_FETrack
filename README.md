@@ -1,4 +1,4 @@
-# MambaTrack
+# Mamba for tracking
 
 
 
