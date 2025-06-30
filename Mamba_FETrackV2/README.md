@@ -125,9 +125,9 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/fe108_result.png" alt="framework" width="700"/>
 </p>
 
-* **Experimental results on FELT V2 dataset and COESOT dataset**
+* **Experimental results on COESOT dataset and FELT V2 dataset**
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/fe108_result.png" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrackV2/figures/feltv2%26coesot.png" alt="framework" width="700"/>
 </p>
 
 ### Acknowledgment 
