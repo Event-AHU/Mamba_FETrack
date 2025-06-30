@@ -74,7 +74,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 
 ### Download Trained Weights for Model 
-Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://drive.google.com/drive/folders/1ihlhp4_gIHmXpIkrJ2wTfleja_wA-Pqa?hl=zh-cn) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test FELT V2 directly.
+Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://drive.google.com/drive/folders/1ihlhp4_gIHmXpIkrJ2wTfleja_wA-Pqa?hl=zh-cn) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test FELT V2 dataset directly.
 
 
 
