@@ -20,8 +20,8 @@ Combining traditional RGB cameras with bio-inspired event cameras for robust obj
 ### Environment Settings 
 * **Install environment using conda**
 ```
-conda create -n mamba_fetrack python=3.10.13
-conda activate mamba_fetrack
+conda create -n mamba_fetrackv2 python=3.10.13
+conda activate mamba_fetrackv2
 ```
 
  * **Install the package for Vim**
