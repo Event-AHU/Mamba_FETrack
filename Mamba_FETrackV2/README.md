@@ -38,7 +38,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 ```
 
 
-### Evaluation Toolkit 
+# :triangular_ruler: Evaluation Toolkit 
  * **Evaluation methods on the FELT dataset**
 1. Download the FELT_eval_toolkit from [FELT_eval_toolkit (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab.
 3. add your [tracking results (Passcode：AHUE)](https://pan.baidu.com/s/1i9ye9QM-EeZRzRpJ7R8p1g?pwd=AHUE) in `$/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
@@ -55,7 +55,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 
 
 
-### Visualization 
+# :video_camera: Visualization 
 
 * The code of visualization can be found at: **/lib/test/tracker/show_CAM.py** 
 
