@@ -38,6 +38,20 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 ```
 
 
+### Evaluation Toolkit 
+ * **Evaluation methods on the FELT dataset**
+1. Download the FELT_eval_toolkit from [FELT_eval_toolkit (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab.
+3. add your [tracking results (Passcode：AHUE)](https://pan.baidu.com/s/1i9ye9QM-EeZRzRpJ7R8p1g?pwd=AHUE) in `$/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
+4. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including AUC, PR, NPR.
+
+ * **Evaluation methods on the COESOT dataset**
+1. Download the COESOT_eval_toolkit from [COESOT_eval_toolkit ([Passcode：AHUT](https://github.com/Event-AHU/COESOT/tree/main/COESOT_eval_toolkit))], and open it with Matlab.
+2. add your [tracking results (Passcode：AHUE)](https://pan.baidu.com/s/1i9ye9QM-EeZRzRpJ7R8p1g?pwd=AHUE) in `$/coesot_tracking_results/` and modify the name in `$/utils/config_tracker.m`
+3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including AUC, PR, NPR.
+
+ * **Evaluation methods on the FE108 dataset**
+1. add your [tracking results (Passcode：AHUE)](https://pan.baidu.com/s/1i9ye9QM-EeZRzRpJ7R8p1g?pwd=AHUE) in `$/output/test/tracking_results/mamba_fetrack/`
+2. run `$/tracking/analysis_results.py` for the overall performance evaluation, including SR, PR.
 
 
 
