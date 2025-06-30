@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python tracking/train.py --script mamba_fetrack --config mamba_fetrack_felt --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0

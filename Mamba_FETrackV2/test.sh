@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python tracking/test.py mamba_fetrack mamba_fetrack_felt --dataset felt --threads 1 --num_gpus 1
