@@ -1,7 +1,7 @@
 # Mamba based visual object tracking
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/OpenEvDET/blob/main/openevdet_logo.png" alt="EventDET_logo" width="800"/>
+  <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/log.png" alt="EventDET_logo" width="800"/>
 </p>
 
 # :collision: News 
