@@ -21,7 +21,7 @@ RGB-Event based tracking is an emerging research topic, focusing on how to effec
 
 ### Mamba-FETrack Framework 
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/Mamba_track_framework.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/Mamba_track_framework.jpg" alt="framework" width="700"/>
 </p>
 
 
@@ -118,7 +118,7 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 * The code of visualization can be found at: **Mamba_FETrack/lib/test/tracker/show_CAM.py** 
 
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/activationMAPs.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/activationMAPs.jpg" alt="framework" width="700"/>
 </p>
 
 
@@ -126,12 +126,12 @@ python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --thre
 ### Experimental Results 
 * **Experimental results (AUC/PR) on FE108 dataset**
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FE108.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/FE108.jpg" alt="framework" width="700"/>
 </p>
 
 * **Experimental results (SR/PR) on FELT dataset**
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/FELT.png" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/FELT.png" alt="framework" width="700"/>
 </p>
 
 
