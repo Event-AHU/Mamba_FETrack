@@ -82,7 +82,7 @@ lib/test/evaluation/local.py  # paths about testing
 ```
 
 ### Download Dataset  
-  Download tracking datasets [FELT](https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT ) OR [FE108](https://zhangjiqing.com/dataset/), and put it in `./data`.
+Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
 
 
 
