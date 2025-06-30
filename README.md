@@ -1,6 +1,8 @@
-# Mamba for tracking
+# Mamba based visual object tracking
 
-
+<p align="center">
+  <img src="https://github.com/Event-AHU/OpenEvDET/blob/main/openevdet_logo.png" alt="EventDET_logo" width="800"/>
+</p>
 
 # :collision: News 
 * [2024.06.25] This work is accepted by **PRCV-2024** [[第七届中国模式识别与计算机视觉大会 (The 7th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2024)](http://2024.prcv.cn/)]. 
