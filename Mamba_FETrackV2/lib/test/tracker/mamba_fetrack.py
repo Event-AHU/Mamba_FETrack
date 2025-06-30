@@ -15,7 +15,7 @@ import torch.nn.functional as F
 from lib.test.tracker.data_utils import Preprocessor
 from lib.utils.box_ops import clip_box
 from lib.utils.ce_utils import generate_mask_cond
-
+# from .show_CAM import getCAM2
 
 class Mamba_FETrack(BaseTracker):
     def __init__(self, params, dataset_name):
@@ -112,6 +112,7 @@ class Mamba_FETrack(BaseTracker):
         # add hann windows
         pred_score_map = out_dict['score_map']
         response = self.output_window * pred_score_map
+        # getCAM2(response, image, self.frame_id)
         pred_boxes = self.network.box_head.cal_bbox(response, out_dict['size_map'], out_dict['offset_map'])
         pred_boxes = pred_boxes.view(-1, 4)
         # Baseline: Take the mean of all pred boxes as the final result
