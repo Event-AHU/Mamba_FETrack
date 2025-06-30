@@ -74,18 +74,6 @@ Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/datase
 Download the trained model weights from [Mamba_FETrack_ep0050.pth](https://pan.baidu.com/s/1avb4gcWJmS2YIkmzjDCKcg?pwd=AHUT) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
 
 
-
-### Training and Testing Script 
-```
-# train
-python tracking/train.py --script mamba_fetrack --config mamba_fetrack_felt --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
-python tracking/train.py --script mamba_fetrack --config mamba_fetrack_fe108 --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
-
-# test
-python tracking/test.py mamba_fetrack mamba_fetrack_felt --dataset felt --threads 1 --num_gpus 1
-python tracking/test.py mamba_fetrack mamba_fetrack_fe108 --dataset fe108 --threads 1 --num_gpus 1
-```
-
 ### Evaluation Toolkit 
  * **Evaluation methods on the FELT dataset**
 1. Download the FELT_eval_toolkit from [FELT_eval_toolkit (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab.
