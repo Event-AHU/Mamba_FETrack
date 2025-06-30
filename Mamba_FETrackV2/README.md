@@ -3,11 +3,7 @@
 * **Mamba-FETrack V2: Revisiting State Space Model for Frame-Event based Visual Object Tracking**, Shiao Wang, Ju Huang, Qingchuan Ma, Jinfeng Gao, Chunyi Xu, Xiao Wang, Lan Chen, Bo Jiang
   [[Paper]()]
   [[Code](https://github.com/Event-AHU/Mamba_FETrack/tree/main/Mamba_FETrackV2)]
-
-
-### News 
-
-
+  
 
 ###  :dart: Abstract 
 Combining traditional RGB cameras with bio-inspired event cameras for robust object tracking has garnered increasing attention in recent years. However, most existing multimodal tracking algorithms depend heavily on high-complexity Vision Transformer architectures for feature extraction and fusion across modalities. This not only leads to substantial computational overhead but also limits the effectiveness of cross-modal interactions. In this paper, we propose an efficient RGB-Event object tracking framework based on the linear-complexity Vision Mamba network, termed Mamba-FETrack V2. Specifically, we first design a lightweight Prompt Generator that utilizes embedded features from each modality, together with a shared prompt pool, to dynamically generate modality-specific learnable prompt vectors. These prompts, along with the modality-specific embedded features, are then fed into a Vision Mamba-based FEMamba backbone, which facilitates prompt-guided feature extraction, cross-modal interaction, and fusion in a unified manner. Finally, the fused representations are passed to the tracking head for accurate target localization. Extensive experimental evaluations on multiple RGB-Event tracking benchmarks, including short-term COESOT dataset and long-term datasets, i.e., FE108 and FELT V2, demonstrate the superior performance and efficiency of the proposed tracking framework.
@@ -62,10 +58,6 @@ python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
-
-### Download Dataset  
-  Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
-
 
 
 ### Download pretrained models  
