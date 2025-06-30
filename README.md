@@ -2,13 +2,13 @@
 
 
 
-### News 
+# :collision: News 
 * [2024.06.25] This work is accepted by **PRCV-2024** [[第七届中国模式识别与计算机视觉大会 (The 7th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2024)](http://2024.prcv.cn/)]. 
 * [2024.05.15] Source code and weights are all released.
 * [2024.04.28] The arXiv paper is released [[arXiv](https://arxiv.org/abs/2404.18174)] 
 
 
-### Environment Settings 
+# :hammer: Environment Settings 
 * **Install environment using conda**
 ```
 conda create -n mamba_fetrack python=3.10.13
@@ -55,13 +55,13 @@ lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-### Download Dataset  
+# :dvd: Download Dataset  
 Download tracking datasets [FELT V2]() OR [FE108](https://zhangjiqing.com/dataset/), OR [COESOT](https://pan.baidu.com/s/12XDlKABlz3lDkJJEDvsu9A?pwd=AHUT ) and put it in `./data`.
 
 
 
 
-### Acknowledgment 
+# :cupid: Acknowledgment 
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
 [[Mamba](https://github.com/state-spaces/mamba)] 
 [[FELT](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
