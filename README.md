@@ -4,7 +4,10 @@
   <img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/figures/log.png" alt="EventDET_logo" width="800"/>
 </p>
 
+
 # :collision: News 
+* [2025.07.01] **Mamba-FETrack V2: Revisiting State Space Model for Frame-Event based Visual Object Tracking**,
+    Shiao Wang, Ju Huang, Qingchuan Ma, Jinfeng Gao, Chunyi Xu, Xiao Wang*, Lan Chen*, Bo Jiang, arXiv:2506.23783 is released on [[arXiv](https://arxiv.org/abs/2506.23783)]  
 * [2024.06.25] This work is accepted by **PRCV-2024** [[第七届中国模式识别与计算机视觉大会 (The 7th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2024)](http://2024.prcv.cn/)]. 
 * [2024.05.15] Source code and weights are all released.
 * [2024.04.28] The arXiv paper is released [[arXiv](https://arxiv.org/abs/2404.18174)] 
