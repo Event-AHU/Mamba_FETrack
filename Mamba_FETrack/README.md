@@ -13,7 +13,7 @@ RGB-Event based tracking is an emerging research topic, focusing on how to effec
 
 ### Mamba-FETrack Framework 
 <p align="center">
-<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/Mamba_track_framework.jpg" alt="framework" width="700"/>
+<img src="https://github.com/Event-AHU/Mamba_FETrack/blob/main/Mamba_FETrack/figures/Mamba_track_framework.jpg" alt="framework" width="800"/>
 </p>
 
 
