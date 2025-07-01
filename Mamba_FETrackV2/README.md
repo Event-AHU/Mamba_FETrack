@@ -1,7 +1,7 @@
 # 🔎 Mamba-FETrack V2
 
 * **Mamba-FETrack V2: Revisiting State Space Model for Frame-Event based Visual Object Tracking**, Shiao Wang, Ju Huang, Qingchuan Ma, Jinfeng Gao, Chunyi Xu, Xiao Wang, Lan Chen, Bo Jiang
-  [[Paper]()]
+  [[Paper](https://arxiv.org/abs/2506.23783)]
   [[Code](https://github.com/Event-AHU/Mamba_FETrack/tree/main/Mamba_FETrackV2)]
   
 
