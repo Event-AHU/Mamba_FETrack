@@ -73,13 +73,13 @@ lib/test/evaluation/local.py  # paths about testing
 ### :newspaper: Citation 
 If you think this paper is helpful, please feel free to leave a star ⭐️ and cite our paper:
 ```bibtex
-@misc{huang2024mambafetrack,
-      title={Mamba-FETrack: Frame-Event Tracking via State Space Model}, 
-      author={Ju Huang and Shiao Wang and Shuai Wang and Zhe Wu and Xiao Wang and Bo Jiang},
-      year={2024},
-      eprint={2404.18174},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{huang2024mamba,
+  title={Mamba-fetrack: Frame-event tracking via state space model},
+  author={Huang, Ju and Wang, Shiao and Wang, Shuai and Wu, Zhe and Wang, Xiao and Jiang, Bo},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={3--18},
+  year={2024},
+  organization={Springer}
 }
 
 @misc{wang2025mambafetrackv2revisitingstate,
