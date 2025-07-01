@@ -81,6 +81,15 @@ If you think this paper is helpful, please feel free to leave a star ⭐️ and 
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+
+@misc{wang2025mambafetrackv2revisitingstate,
+      title={Mamba-FETrack V2: Revisiting State Space Model for Frame-Event based Visual Object Tracking}, 
+      author={Shiao Wang and Ju Huang and Qingchuan Ma and Jinfeng Gao and Chunyi Xu and Xiao Wang and Lan Chen and Bo Jiang},
+      year={2025},
+      eprint={2506.23783},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 
