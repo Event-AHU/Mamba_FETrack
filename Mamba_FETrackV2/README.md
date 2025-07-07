@@ -20,7 +20,7 @@ Combining traditional RGB cameras with bio-inspired event cameras for robust obj
 
 
 ### Download Trained Weights for Model 
-Download the trained model weights from [Mamba_FETrack_ep0050.pth (Passcode：AHUE)](https://pan.baidu.com/s/1CzFwj4W4HXv3NUzb619-Yw?pwd=AHUE) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test FELT V2 dataset directly.
+Download the trained model weights from [Mamba_FETrack_ep0050.pth (Passcode：AHUE)](https://pan.baidu.com/s/1CzFwj4W4HXv3NUzb619-Yw?pwd=AHUE) and put it under `$/output/checkpoints/train/mamba_fetrack/mamba_fetrack_felt` for test directly.
 
 
 
