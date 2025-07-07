@@ -15,7 +15,7 @@ Combining traditional RGB cameras with bio-inspired event cameras for robust obj
 
 
 ### Download pretrained models  
-  Download [pre-trained](https://drive.google.com/drive/folders/1sTHPc0fCNrGZi-xS1OpuYU9KWT9aJNef?hl=zh-cn) and put it under `$/pretrained_models`.
+  Download [pre-trained](https://pan.baidu.com/s/1_xIb24UUz0uUxiXACALNUw?pwd=AHUE) and put it under `$/pretrained_models`.
 
 
 
